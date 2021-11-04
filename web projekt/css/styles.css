@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(./pexels-karolina-grabowska-4046718.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.navbar {
+  background: rgb(216, 194, 143);
+  font-size: 1.5rem;
+  border: brown;
+}
+
+ul {
+  list-style-type: none; /*uklanja točkice*/
+  display: inline;
+}
+ul,
+li {
+  display: inline;
+}
+ul,
+li,
+a {
+  color: black;
+  text-decoration: none; /*uklanja podvučeno */
+  padding-inline: 20px;
+  border: blanchedalmond;
+  border-radius: 10px;
+}
+.menu {
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img-usluga {
+  border-radius: 30%;
+}
+.salon {
+  float: left;
+}
+.text {
+  clear: right;
+}
+.img-usluga1 {
+  padding-left: 40px;
+  clear: inherit;
+}
+.about-img {
+  text-align: center;
+  opacity: 0.5;
+}
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+/*calc da nema scrola*/
+form {
+  text-decoration-color: rgb(61, 57, 57);
+  text-align: center;
+  margin: 70px;
+  font-size: 28px;
+  border-radius: 15px;
+  color: rgb(62, 60, 60);
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border-color: rgb(231, 122, 190);
+  border-style: inset;
+  text-decoration: rgb(61, 57, 57);
+  text-decoration: transparent;
+}
+#post {
+  background: rgb(231, 122, 190);
+  color: rgb(61, 57, 57);
+  font-size: 28px;
+  border-radius: 10px;
+  border-style: solid;
+}
+.cjenik {
+  text-align: center;
+  text-decoration: initial;
+  font-size: 20px;
+}
+.cjena {
+  font-size: 25px;
+}
+
+.ts-icons {
+  /*width: 50px;*/
+  padding: 15px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.ts-icons:hover {
+  transform: scale(1.5);
+}
+
+.follow {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+footer {
+  background: rgb(216, 194, 143);
+  text-align: center;
+  background-attachment: scroll;
+}

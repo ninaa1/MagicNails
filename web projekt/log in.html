@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Log in</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="icon"
+          href="./images/nail-art-hand-drawn-logo-design-template-nail-hand-drawn-logo-design-template-isolated-white-handwritten-lettering-nails-174320401.jpg">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="./css/stylee.css">
+
+     
+     
+</head>
+
+<body>
+     <div class="topnav" id="myTopnav">
+          <a href="index.html">
+               <img src="./images/nail-art-hand-drawn-logo-design-template-nail-hand-drawn-logo-design-template-isolated-white-handwritten-lettering-nails-174320401.jpg"
+                    title="home" width="100" alt="logo nails" class="logo" class="active">
+               <a href="#home" class="menu">Početna</a>
+               <a href="#news" class="menu">O nama</a>
+               <a href="#contact" class="menu">Galerija</a>
+               <a href="#about" class="menu">Cijene</a>
+               <li class="dropdown">    </li>
+                    <a class="menu" data-toggle="dropdown" href="#">Prijavi se
+                         <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                         <li><a href="register.html">Registriraj se</a></li>
+                         <li><a href="log in.html">Prijavi se</a></li>
+                    </ul>
+                    </li>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+               </a>
+     </div>
+     <div>
+
+        <!--  <nav class="navbar">
+               <a href="index.html">
+                    <img src="./images/nail-art-hand-drawn-logo-design-template-nail-hand-drawn-logo-design-template-isolated-white-handwritten-lettering-nails-174320401.jpg"
+                         title="home" width="100" alt="logo nails" class="logo">
+               </a>
+               <ul>
+                    <li> <a class="menu" href="index.html">Početna</a> </li>
+                    <li><a class="menu" href="about1.html">O nama</a></li>
+                    <li><a class="menu" href="galerija.html">Galerija</a></li>
+                    <li class="dropdown">
+                    <a class="menu" data-toggle="dropdown" href="#">Prijavi se
+                         <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                         <li><a href="register.html">Registriraj se</a></li>
+                         <li><a href="log in.html">Prijavi se</a></li>
+                    </ul>
+                    </li>
+                    <li><a class="menu" href="cijene.html">Cijene</a></li>
+               </ul>
+          </nav>-->
+     </div>
+     <div class="bg-image">
+          <div class="container">
+               <h2>Log in</h2>
+               <form class="form-horizontal" action="/action_page.php">
+                    <div class="form-group">
+                         <label class="control-label col-sm-2" for="kname">Korisničko ime</label>
+                         <div class="col-sm-6">
+                              <input type="email" class="form-control" id="kname" placeholder="Korisničko ime"
+                                   name="kname">
+                         </div>
+                    </div>
+                    <div class="form-group">
+                         <label class="control-label col-sm-2" for="pwd">Lozinka:</label>
+                         <div class="col-sm-6">
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                         </div>
+                    </div>
+
+                    <div class="form-group">
+                         <div class="col-sm-offset-2 col-sm-10">
+                              <div class="checkbox">
+                                   <label><input type="checkbox" name="remember"> Remember me</label>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="form-group">
+                         <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn btn-default">Prijavi se</button>
+                         </div>
+                    </div>
+               </form>
+          </div>
+     </div>
+     <div>
+          <footer>
+               <h4 class="follow">Follow us</h4>
+               <a href="https://instagram.com/magic_nails_ic?utm_medium=copy_link" target="_blanck">
+                    <span class="ts-icons">
+                         <i class="fa fa-instagram"></i>
+                    </span>
+               </a>
+               <a href="https://instagram.com/magic_nails_ic?utm_medium=copy_link" target="_blanck">
+                    <span class="ts-icons">
+                         <i class="fa fa-facebook-f"></i>
+                    </span>
+               </a>
+
+          </footer>
+     </div>
+
+     <script>
+          function myFunction() {
+               var x = document.getElementById("myTopnav");
+               if (x.className === "topnav") {
+                    x.className += " responsive";
+               } else {
+                    x.className = "topnav";
+               }
+          }
+     </script>
+
+</body>
+
+</html>
